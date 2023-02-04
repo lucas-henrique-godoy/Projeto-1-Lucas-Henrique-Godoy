@@ -1,0 +1,62 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Lucas">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        <link rel="stylesheet" href="css/estilo.css">
+        
+        
+    </head>
+    <body>
+        <div id="principal">         <!--Div cria uma estrutura (uma caixinha) que ajuda na centralização dos elementos,estruturando o layout mais facilmente-->
+            <header class="hero">    <!--Header é o cabeçalho da pagina ou da seção(logotipo de empresas, formulario de busca,menu de navegação-->
+                <nav>                <!--Nav é a navegação principal da pagina, navegação que nunca muda-->
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="#">Quem Sou</a></li>
+                        <li><a href="#">Contato </a></li>
+                    </ul>
+                </nav>
+                <div class="hero-content">
+                    <h1>Curso Web Fundamentos</h1>
+                    <p>Aprenda HTML,CSS e Javascript</p>
+                </div>
+            </header>
+            
+            <main>   <!--Main é usada para mostrar o conteúdo principal da página-->
+                <section class="content-section">  <!--Section usada para demarcar uma área de conteudo relevante para aquela pagina(ex:Este poderia ser o post de um fórum, um artigo de revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou widget interativos, ou qualquer outra forma de conteúdo independente.)-->
+                    <div class="card card-1">
+                        <img src="Imagens/card_01.png" alt="">
+                        <p>Seletores</p>
+                    </div>
+                    <div class="card card-2">
+                        <img src="Imagens/card_02.jpg" alt="">
+                        <p>Posicionamento</p>
+                    </div>
+                    <div class="card card-3">
+                        <img src="Imagens/card_03.jpg" alt="">
+                        <p>Fontes e Ícones</p>
+                    </div>
+                </section>
+                <section class="content-section">
+                    <article>  <!--Contem o conteudo principal da pagina semanticamente falando-->    <!--Aside é usada para incluir conteudo a parte do conteudo principal do site, conteudo que nao tem relação com o do site(ex: banner de propaganda)-->
+                        <header class="content-header"><h2>Desenvolvimento Web</h2>
+                        </header> 
+                        <p>Basicamente, desenvolvimento web significa codificar páginas para a internet. No entanto, essa tarefa vai além da utilização de HTML e CSS, as ferramentas básicas para a criação de uma página estática — que apresenta informações que só podem ser modificadas com a edição do código fonte.
+
+                            Ao contrário, as páginas em um site podem ser dinâmicas. Isso significa que o conteúdo exibido pode ser alterado sem a interferência no código fonte. Para que isso seja possível, as partes dinâmicas do site ficam armazenadas em um banco de dados, que é acessado sempre que for necessário recuperar esse conteúdo.</p>
+                        <p>Essa característica permite o desenvolvimento de aplicações complexas, que utilizam regras de negócios, APIs — Application Programming Interface — e muito mais. Portanto, existe uma divisão nas atividades voltadas ao desenvolvimento para web, a codificação do lado cliente (front-end) e a do lado do servidor (back-end).</p>
+                    </article>
+                </section>
+            </main>
+            <footer class="rodape">
+                <p>Copyright &copy; 2018</p>
+            </footer>
+
+        </div>
+    </body>
+</html>
